@@ -1,0 +1,90 @@
+body{
+  width: 75rem;
+
+}
+.top{
+  text-align: center;
+}
+.color{
+  color: red;
+  padding-left: 10px;
+}
+.related-list{
+  height: 3rem;
+}
+.middle{
+  height: 3rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.popular{
+  border-color: pink;
+  background-color: transparent;
+  border-radius: 100px;
+  width: 6.5rem;
+  height: 2rem;
+}
+.popular:hover{
+  background-color: pink;
+}
+.filters{
+  border-color: grey;
+  background-color: transparent;
+  border-radius: 100px;
+  width: 6.5rem;
+  height: 2rem;
+}
+.filters:hover{
+  background-color: grey;
+}
+.all{
+  background-color: transparent;
+  border: none;
+  color: grey;
+}
+.all:focus{
+  color: black;
+  background-color: grey;
+  width: 6.5rem;
+  height: 2rem;
+  border-radius: 100px
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.img-pic{
+  width: 17.25rem;
+margin-right: 0;
+}
+.text{
+  display: flex;
+  justify-content: space-between;
+}
+.img--text{
+margin-right: 2rem;
+margin-bottom: 2rem;
+}
+.no{
+  margin-right: 0;
+}
+.text{
+  margin-top: 1rem;
+}
+.pro{
+  background-color: grey;
+border-radius: 100px;
+border: none;
+color: #fff;
+}
+.fa{
+  color: grey;
+}
+.new{
+  font-size: 1rem;
+}
+.first-part{
+  font-weight: bold;
+}
